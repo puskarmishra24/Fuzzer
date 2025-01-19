@@ -1,0 +1,39 @@
+|  ___|   _ ___________ _ __
+| |_ | | | |_  /_  / _ \ '__|
+|  _|| |_| |/ / / /  __/ |
+|_|   \__,_/___/___\___|_|
+
+                    _           _____              _         _  __  ___ _
+                    | |__ _  _  |_   _|  _ _ _ _ _ (_)_ _  __| |/ / / __| |_  __ _ ___ ___
+                    | '_ \ || |   | || || | '_| ' \| | ' \/ _` / _ \ (__| ' \/ _` (_-</ -_)
+                    |_.__/\_, |   |_| \_,_|_| |_||_|_|_||_\__,_\___/\___|_||_\__,_/__/\___|
+
+
+Step 1 : Download Owasp ZAP (https://www.zaproxy.org/download/)
+Step 2 : Configure & Install OWASP zap
+Step 3 : Open ZAP , Go to Tools > Others > API (Copy The API key)
+         Check The Following Options are Ticked(Image/Img1.jpg ) The Interface should look similar to Img1.png.
+Step 4 : ZAP > Tools > Network > LocalServers/Proxies.
+Step 5 : My Address is Set to (localhost) and Port (8081), Your would be by Default Address(localhost) and port (8080).
+         Your Address would be (https://localhost:8080), Else my Address would be (https://localhost:8081).
+Step 6 : Copy the Address & API key 
+         Go to Main.py, Line no : 11 ,12,111. Change the Address and Port.
+         Go to Connection.py, Line no : 13 {API key}
+Step 7 : Run Main.py Without any error.
+
+Note:
+Kindly Check Zap (localhost:8080) is running with HTTPS or Certificate 
+    Else
+        Open Your Address and port number in Browser , In mycase it's (localhost:8081) Check Yours
+        You can See {
+            HTTPS Warnings Prevention
+                To avoid HTTPS Warnings download and install CA root Certificate in your Mobile device or computer.
+        }
+
+Install all the Module from Requirement.txt
+     
+                                    {{Follow The Steps and You are Ready To GO.}}
+
+
+
+

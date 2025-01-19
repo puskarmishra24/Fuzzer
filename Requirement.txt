@@ -1,0 +1,20 @@
+# Progress bar for the crawling process
+tqdm  
+
+# Adds color to terminal output for better visibility
+termcolor  
+
+# Makes HTTP requests to interact with APIs
+requests  
+
+# Handles HTTPS requests and suppresses warnings
+urllib3  
+
+# For creating and manipulating PDF files
+PyPDF2  
+
+# For generating PDFs with formatted tables and custom styles
+reportlab  
+
+# OWASP ZAP Python API for interacting with the ZAP tool
+owasp-zap-v2.4  

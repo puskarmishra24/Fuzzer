@@ -1,0 +1,4 @@
+; ls
+&& cat /etc/passwd
+| whoami
+&& sleep 10
